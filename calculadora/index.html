@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <ul class="nav-lista">
+                <img src="img/logo1.jfif" class="logo">  
+                <li class="nav-item"><a href="instagram.com">Instagram</a></li>
+                <li class="nav-item"><a href="google.com">Linkedin</a></li>
+                <li class="nav-item"><a href="instagram.com">Github</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="titulo-um">
+        <h1>Faça seus <span class="titulo-dois">cálculos!</span></h1>
+        <p>E chegue no número que <span class="titulo-dois">deseja!</span></p>
+    </div>
+    <main >
+        <div class="calculadora">
+            <table>
+                    <h1>Calculadora</h1>
+                    <p class="resultado" id="resultado"></p>                
+                <tr>
+                    <td><button onclick="limpar()">C</button></td>
+                    <td><button onclick="back()"><</button></td>
+                    <td><button onclick="botao('/')">/</button></td>
+                    <td><button onclick="botao('*')">X</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="botao('7')">7</button></td>
+                    <td><button onclick="botao('8')">8</button></td>
+                    <td><button onclick="botao('9')">9</button></td>
+                    <td><button onclick="botao('-')">-</button></td>
+                </tr>
+                    <td><button onclick="botao('4')">4</button></td>
+                    <td><button onclick="botao('5')">5</button></td>
+                    <td><button onclick="botao('6')">6</button></td>
+                    <td><button onclick="botao('+')">+</button></td>
+                <tr>
+                <tr>
+                    <td><button onclick="botao('1')">1</button></td>
+                    <td><button onclick="botao('2')">2</button></td>
+                    <td><button onclick="botao('3')">3</button></td>
+                    <td><button onclick="calcular()">=</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="botao('.')">.</button></td>
+                    <td><button onclick="botao('.')">.</button></td>
+                    <td><button onclick="botao('.')">.</button></td>
+                    <td><button onclick="botao('0')">0</button></td>
+                </tr>
+            </table>
+        </div>
+    </main>
+    <footer>
+        <img src="img/logo1.jfif">
+        <p id="teste">Victor H Souza.</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>

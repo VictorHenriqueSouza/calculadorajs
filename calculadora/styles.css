@@ -1,0 +1,124 @@
+
+body{
+    font-family: 'Roboto Mono', monospace;
+    background-image: url(img/absurd.design\ -\ Chapter\ 1\ -\ 07.png);
+    background-size: 100%;
+    width: 100%;
+    
+ 
+}
+
+.logo{
+    width: 5%;
+   
+  
+}
+ul a{
+    text-decoration: none;
+    color:black;
+}
+.nav{
+    border-bottom: 0.1rem solid #ddd;
+    background-color: white;
+   
+}
+
+.nav-lista{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: bold;
+}
+
+.nav-item:hover{
+    color: #20abd8;
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+
+.titulo-um{
+    background-color: white;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 5rem;
+    padding: 8rem;
+    border-bottom: 0.1rem solid #ddd;
+    border-top: 0.1rem solid #ddd;
+       
+}
+
+.titulo-um p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 0.3rem;
+    font-style: italic;
+   
+}
+.titulo-dois{
+    color: #20abd8;
+    font-weight: 700;
+}
+
+.calculadora{
+    border: 0.1rem solid black;
+    border-radius: 10px 15px 20px 25px;   
+    margin-top: 3rem;
+    padding: 3rem;
+    display: inline-block;
+    margin-left: 30%;
+    background-color: white;
+    padding: 3rem;
+}
+
+
+
+.calculadora h1{
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    font-weight: 600;
+    color:black;
+    
+    
+}
+
+.cal-cima{
+    background-color: black;
+   
+}
+
+.resultado{
+    margin: 1rem 0;
+    font-weight: 700;
+    text-align: right;
+}
+
+.calculadora button{
+    width: 2rem;
+    height: 2rem;
+    margin: 0.2rem;
+    background-color: #ddd;
+    color: black;
+    border: 0.1px solid black;
+    
+}
+
+.calculadora button:hover{
+    background-color:#20abd8;
+    color: white;
+    cursor:pointer;
+    border-radius: 5px 5px 5px 5px;
+    
+}
+
+   
+footer{
+text-align: center;
+padding:1.5rem;
+background-color: white;
+margin-top: 3rem;
+}
+
+footer img{
+    width: 3%;
+}
